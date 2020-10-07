@@ -51,7 +51,8 @@
 /******************************************************************************/
 /* Configurations */
 /******************************************************************************/
-static const uint8_t uart_port_num = OS_HAL_UART_ISU0;
+// static const uint8_t uart_port_num = OS_HAL_UART_ISU0;
+static const uint8_t uart_port_num = OS_HAL_UART_PORT0;
 
 /* Maximum mailbox buffer len.
  *    Maximum message len: 1024B
